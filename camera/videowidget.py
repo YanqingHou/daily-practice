@@ -56,7 +56,3 @@ class VideoWidget(QWidget):
             self.lbl_img.setPixmap(q_pix)
             self.lbl_img.setScaledContents(True)
 
-app = QApplication([])
-widget = VideoWidget()
-widget.show()
-app.exec()
